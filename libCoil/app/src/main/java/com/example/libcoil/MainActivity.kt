@@ -85,3 +85,12 @@ fun RemoteImage(imageUrl: String) {
         contentScale = ContentScale.Crop
     )
 }
+
+//val output = Bitmap.createBitmap(originalBitmap.width, originalBitmap.height, Bitmap.Config.ARGB_8888)
+//val canvas = Canvas(output)
+//val paint = Paint().apply {
+//    isAntiAlias = true
+//    shader = BitmapShader(originalBitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP)
+//}
+//val rect = RectF(0f, 0f, originalBitmap.width.toFloat(), originalBitmap.height.toFloat())
+//canvas.drawRoundRect(rect, 16f, 16f, paint)
